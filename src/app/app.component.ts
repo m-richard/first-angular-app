@@ -4,8 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <h1>Inline Template</h1>
-    <fa-other></fa-other>
-    <fa-another><fa-another>
+    <fa-databinding></fa-databinding>
   `,
   styleUrls: ['./app.component.css']
 })
