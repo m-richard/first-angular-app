@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { PropertyBindingComponent } from './property-binding.component';
+import { EventBindingComponent } from './event-binding.component';
 
 @Component({
   selector: 'fa-databinding',
