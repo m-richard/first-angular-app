@@ -12,9 +12,11 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'app-lifecycle',
+  selector: 'fa-lifecycle',
   template: `
     <ng-content></ng-content>
+    <hr>
+    <p>{{bindable}}</p>
   `,
   styles: []
 })
